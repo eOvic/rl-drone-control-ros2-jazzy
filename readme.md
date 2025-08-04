@@ -6,7 +6,7 @@ This project demonstrates how to train a drone to perform a stable altitude-hold
 
 A key challenge in this project was overcoming the agent's initial tendency to "give up." The GIF below shows the final trained agent successfully controlling its thrust to maintain the target altitude of 20 meters, even after starting from a slightly lower position.
 
-[![Demonstration of Drone Altitude Control](https://github.com/chahine/rl-drone-control-ros2/blob/main/media/demo.png?raw=true)](https://github.com/chahine/rl-drone-control-ros2/blob/main/media/demo.mp4)
+![Demonstration of Drone Altitude Control](https://github.com/eOvic/rl-drone-control-ros2-jazzy/tree/main/media/demo.png?raw=true)
 
 ## Project Overview
 
@@ -70,7 +70,7 @@ git clone https://github.com/PX4/px4_msgs.git
 git clone https://github.com/PX4/px4_ros_com.git
 git clone https://github.com/eOvic/rl-drone-control-ros2-jazzy.git
 cd ..
-source /opt/ros/humble/setup.bash
+source /opt/ros/jazzy/setup.bash
 colcon build
 source install/setup.bash
 ```
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 ### Additional Configs
 - Put below lines in your bashrc:
 ```commandline
-source /opt/ros/humble/setup.bash
+source /opt/ros/jazzy/setup.bash
 export GZ_SIM_RESOURCE_PATH=~/.gz/models
 ```
 
