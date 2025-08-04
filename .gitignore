@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ROS 2 & Colcon
+build/
+install/
+log/
+
+# Stable Baselines3 model files and logs
+*.zip
+dqn_drone_checkpoints/
+dqn_drone_tensorboard/
+
+# IDE files
+.vscode/
+.idea/
